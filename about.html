@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>/* apply saved theme before first paint */try{if(localStorage.getItem('elisha_portfolio_theme')==='dark'){var h=document.documentElement;h.setAttribute('data-theme','dark');h.classList.add('dark');}}catch(e){}</script>
+  <meta name="description" content="About Adebayo Elisha - Educational Background, Technical Skills, Career Goals, and Course Schedule." />
+  <title>About Me | Adebayo Elisha</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg?v=6.1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" />
+  <link rel="stylesheet" href="css/style.css?v=6.1" />
+  <link rel="prefetch" href="index.html" as="document" />
+  <link rel="prefetch" href="projects.html" as="document" />
+  <link rel="prefetch" href="planner.html" as="document" />
+  <link rel="prefetch" href="contact.html" as="document" />
+</head>
+<body>
+
+  <!-- SCROLL-MORPHING iOS LIQUID GLASS NAVBAR -->
+  <header class="site-header">
+    <div class="nav-shell">
+      <div class="nav-spacer-left">
+        <a href="index.html" class="nav-brand-title">Adebayo Elisha</a>
+      </div>
+      <!-- Desktop Navigation Links with SVG Icons -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li>
+            <a href="index.html" class="nav-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              <span>Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="about.html" class="nav-link active">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              <span>About Me</span>
+            </a>
+          </li>
+          <li>
+            <a href="projects.html" class="nav-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="planner.html" class="nav-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/><path d="m9 16 2 2 4-4"/></svg>
+              <span>Planner</span>
+            </a>
+          </li>
+          <li>
+            <a href="contact.html" class="nav-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              <span>Contact</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions -->
+      <div class="nav-actions">
+        <a href="contact.html" class="nav-resume-btn">
+          <span>Get in Touch</span>
+          <span>&rarr;</span>
+        </a>
+
+        <button type="button" class="mobile-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- MOBILE NAVIGATION DRAWER -->
+  <aside class="mobile-nav-overlay" aria-label="Mobile Navigation Drawer">
+    <a href="index.html" class="mobile-nav-link">Home</a>
+    <a href="about.html" class="mobile-nav-link active">About Me</a>
+    <a href="projects.html" class="mobile-nav-link">Projects</a>
+    <a href="planner.html" class="mobile-nav-link">Academic Planner</a>
+    <a href="contact.html" class="mobile-nav-link">Contact</a>
+        </aside>
+
+  <!-- MAIN CONTENT -->
+  <main id="main-content" class="container">
+    
+    <!-- PAGE HEADER -->
+    <header class="page-header">
+      <div class="hero-intro-lead" style="font-size: 0.8rem;">B A C K G R O U N D</div>
+      <h1 class="page-title">Who Am I?</h1>
+      <p class="page-subtitle">
+        Behind every terminal command is a curious mind driven by one question: <em>&ldquo;How can this system be made more secure?&rdquo;</em> Here is my academic path, technical competencies, and aspirations in defensive cybersecurity.
+      </p>
+    </header>
+
+    <!-- SECTION: EDUCATION & ASPIRATIONS (TWO COLUMN GRID) -->
+    <section aria-labelledby="bio-heading" style="margin-bottom: 48px;">
+      <div class="education-career-grid">
+        
+        <!-- Educational Background -->
+        <article class="mono-card">
+          <div class="card-header-row">
+            <div class="card-icon-badge" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+              </svg>
+            </div>
+            <div class="card-title-group">
+              <h2 id="bio-heading">Educational Background</h2>
+              <span class="card-caption">[01 // ACADEMIC TIMELINE]</span>
+            </div>
+          </div>
+
+          <div class="academic-timeline">
+            <!-- Timeline Item 1 -->
+            <div class="timeline-item">
+              <span class="timeline-dot active" aria-hidden="true"></span>
+              <div class="timeline-badge-row">
+                <span class="timeline-year">2024 &mdash; Present</span>
+                <span class="timeline-status-pill active">&bull; In View</span>
+              </div>
+              <h3 class="timeline-title">B.Sc. Cybersecurity (100 Level)</h3>
+              <span class="timeline-org">MIVA Open University &bull; May Cohort 2026</span>
+              <p class="timeline-desc">
+                Focusing on information security fundamentals, algorithmic problem solving, web technologies, and computational foundations.
+              </p>
+              <div class="timeline-tags">
+                <span class="timeline-tag">18 Units Active</span>
+                <span class="timeline-tag">Cybersecurity Core</span>
+                <span class="timeline-tag">Matric: 2025/C/CYB/1089</span>
+              </div>
+            </div>
+
+            <!-- Timeline Item 2 -->
+            <div class="timeline-item">
+              <span class="timeline-dot" aria-hidden="true"></span>
+              <div class="timeline-badge-row">
+                <span class="timeline-year">2018 &mdash; 2023</span>
+                <span class="timeline-status-pill">&bull; Completed</span>
+              </div>
+              <h3 class="timeline-title">Senior Secondary School Certificate</h3>
+              <span class="timeline-org">Science &amp; Mathematics Stream</span>
+              <p class="timeline-desc">
+                Graduated with distinctions in Computer Studies, Mathematics, and Physical Sciences, establishing strong algorithmic logic.
+              </p>
+              <div class="timeline-tags">
+                <span class="timeline-tag">Distinction STEM</span>
+                <span class="timeline-tag">Science Stream</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Career Aspirations -->
+        <article class="mono-card">
+          <div class="card-header-row">
+            <div class="card-icon-badge" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <circle cx="12" cy="12" r="10"/>
+                <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
+              </svg>
+            </div>
+            <div class="card-title-group">
+              <h2>Career Aspirations</h2>
+              <span class="card-caption">[02 // PROFESSIONAL HORIZON]</span>
+            </div>
+          </div>
+
+          <div class="aspiration-lead-box">
+            <span class="aspiration-lead-tag">Primary Career Objective</span>
+            Specializing as a <strong>Security Operations Center (SOC) Analyst</strong> and <strong>Threat Intelligence Engineer</strong>, architecting resilient defensive security systems against modern enterprise cyber attacks.
+          </div>
+
+          <div class="aspiration-track-list">
+            <!-- Track 1 -->
+            <div class="aspiration-track-item">
+              <div class="aspiration-track-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+              </div>
+              <div class="aspiration-track-body">
+                <div class="aspiration-track-title">
+                  <span>SOC Incident Response &amp; Forensics</span>
+                  <span class="aspiration-pill">Tier 1 &amp; 2</span>
+                </div>
+                <p class="aspiration-track-desc">
+                  Real-time network packet forensics, log telemetry correlation, and rapid malware containment.
+                </p>
+              </div>
+            </div>
+
+            <!-- Track 2 -->
+            <div class="aspiration-track-item">
+              <div class="aspiration-track-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+              </div>
+              <div class="aspiration-track-body">
+                <div class="aspiration-track-title">
+                  <span>Web Vulnerability Hardening</span>
+                  <span class="aspiration-pill">AppSec</span>
+                </div>
+                <p class="aspiration-track-desc">
+                  OWASP Top 10 mitigation, secure session architecture, and client-side sanitization defenses.
+                </p>
+              </div>
+            </div>
+
+            <!-- Track 3 -->
+            <div class="aspiration-track-item">
+              <div class="aspiration-track-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>
+              </div>
+              <div class="aspiration-track-body">
+                <div class="aspiration-track-title">
+                  <span>Cloud Security &amp; Compliance</span>
+                  <span class="aspiration-pill">DevSecOps</span>
+                </div>
+                <p class="aspiration-track-desc">
+                  Zero-trust identity governance, cryptographic key security, and security compliance frameworks.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SECTION: ACADEMIC COURSE ENROLLMENT -->
+    <section aria-labelledby="courses-heading" style="margin-bottom: 48px;">
+      <div class="course-enrollment-card">
+        
+        <!-- Card Header with Icon, Title, and Credit Badge -->
+        <div class="enrollment-header">
+          <div class="enrollment-title-group">
+            <div class="enrollment-icon-badge" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+              </svg>
+            </div>
+            <div>
+              <h2 id="courses-heading" class="enrollment-title">Academic Course Enrollment</h2>
+              <p class="enrollment-subtitle">Current academic term courses enrolled at MIVA Open University &bull; 100 Level (Second Semester)</p>
+            </div>
+          </div>
+          <div class="enrollment-meta-chip">
+            <span class="meta-dot"></span>
+            <span>Total: <strong>18 Credit Units (8 Registered Courses)</strong></span>
+          </div>
+        </div>
+
+        <!-- Desktop Responsive Table Container -->
+        <div class="course-table-container">
+          <table class="course-table">
+            <thead>
+              <tr>
+                <th scope="col" style="width: 140px;">Course Code</th>
+                <th scope="col">Course Title</th>
+                <th scope="col" style="width: 120px; text-align: center;">Credit Units</th>
+                <th scope="col" style="width: 240px;">Status &amp; LMS Progress</th>
+                <th scope="col" style="width: 150px; text-align: right;">Semester</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="course-code-pill">COS 106</span></td>
+                <td class="course-title-cell">Introduction to Web Technologies</td>
+                <td class="credit-units-cell"><span class="unit-badge">3</span></td>
+                <td><span class="status-chip status-enrolled"><span class="chip-pip"></span>Enrolled (Term Project &bull; 86%)</span></td>
+                <td class="semester-cell">Second Semester</td>
+              </tr>
+              <tr>
+                <td><span class="course-code-pill">COS 102</span></td>
+                <td class="course-title-cell">Problem Solving</td>
+                <td class="credit-units-cell"><span class="unit-badge">3</span></td>
+                <td><span class="status-chip status-completed"><span class="chip-pip"></span>Completed (Lab 1 &bull; 90%)</span></td>
+                <td class="semester-cell">Second Semester</td>
+              </tr>
+              <tr>
+                <td><span class="course-code-pill">MTH 102</span></td>
+                <td class="course-title-cell">Elementary Mathematics II</td>
+                <td class="credit-units-cell"><span class="unit-badge">3</span></td>
+                <td><span class="status-chip status-inprogress"><span class="chip-pip"></span>In Progress (90%)</span></td>
+                <td class="semester-cell">Second Semester</td>
+              </tr>
+              <tr>
+                <td><span class="course-code-pill">PHY 102</span></td>
+                <td class="course-title-cell">General Physics II</td>
+                <td class="credit-units-cell"><span class="unit-badge">2</span></td>
+                <td><span class="status-chip status-inprogress"><span class="chip-pip"></span>In Progress (91%)</span></td>
+                <td class="semester-cell">Second Semester</td>
+              </tr>
+              <tr>
+                <td><span class="course-code-pill">PHY 108</span></td>
+                <td class="course-title-cell">General Physics Practical II</td>
+                <td class="credit-units-cell"><span class="unit-badge">1</span></td>
+                <td><span class="status-chip status-inprogress"><span class="chip-pip"></span>In Progress (90%)</span></td>
+                <td class="semester-cell">Second Semester</td>
+              </tr>
+              <tr>
+                <td><span class="course-code-pill">GST 112</span></td>
+                <td class="course-title-cell">Nigerian Peoples and Culture</td>
+                <td class="credit-units-cell"><span class="unit-badge">2</span></td>
+                <td><span class="status-chip status-inprogress"><span class="chip-pip"></span>In Progress (94%)</span></td>
+                <td class="semester-cell">Second Semester</td>
+              </tr>
+              <tr>
+                <td><span class="course-code-pill">GST 122</span></td>
+                <td class="course-title-cell">Communication Skills in English II</td>
+                <td class="credit-units-cell"><span class="unit-badge">2</span></td>
+                <td><span class="status-chip status-inprogress"><span class="chip-pip"></span>In Progress (91%)</span></td>
+                <td class="semester-cell">Second Semester</td>
+              </tr>
+              <tr>
+                <td><span class="course-code-pill">COS 111</span></td>
+                <td class="course-title-cell">Technical Certification in Computing I</td>
+                <td class="credit-units-cell"><span class="unit-badge">2</span></td>
+                <td><span class="status-chip status-inprogress"><span class="chip-pip"></span>In Progress (66%)</span></td>
+                <td class="semester-cell">Second Semester</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Mobile Card List (Rendered cleanly on phone screens) -->
+        <div class="course-mobile-list" aria-label="Course list for mobile screens">
+          <!-- Course 1 -->
+          <article class="course-mobile-card">
+            <div class="course-mobile-header">
+              <span class="course-code-pill">COS 106</span>
+              <span class="unit-badge">3 Credit Units</span>
+            </div>
+            <h3 class="course-mobile-title">Introduction to Web Technologies</h3>
+            <div class="course-progress-track" aria-hidden="true">
+              <div class="course-progress-fill" style="width: 86%;"></div>
+            </div>
+            <div class="course-mobile-footer">
+              <span class="status-chip status-enrolled"><span class="chip-pip"></span>Term Project &bull; 86%</span>
+              <span class="semester-cell">Semester 2</span>
+            </div>
+          </article>
+
+          <!-- Course 2 -->
+          <article class="course-mobile-card">
+            <div class="course-mobile-header">
+              <span class="course-code-pill">COS 102</span>
+              <span class="unit-badge">3 Credit Units</span>
+            </div>
+            <h3 class="course-mobile-title">Problem Solving</h3>
+            <div class="course-progress-track" aria-hidden="true">
+              <div class="course-progress-fill" style="width: 90%;"></div>
+            </div>
+            <div class="course-mobile-footer">
+              <span class="status-chip status-completed"><span class="chip-pip"></span>Completed Lab 1 &bull; 90%</span>
+              <span class="semester-cell">Semester 2</span>
+            </div>
+          </article>
+
+          <!-- Course 3 -->
+          <article class="course-mobile-card">
+            <div class="course-mobile-header">
+              <span class="course-code-pill">MTH 102</span>
+              <span class="unit-badge">3 Credit Units</span>
+            </div>
+            <h3 class="course-mobile-title">Elementary Mathematics II</h3>
+            <div class="course-progress-track" aria-hidden="true">
+              <div class="course-progress-fill" style="width: 90%;"></div>
+            </div>
+            <div class="course-mobile-footer">
+              <span class="status-chip status-inprogress"><span class="chip-pip"></span>In Progress &bull; 90%</span>
+              <span class="semester-cell">Semester 2</span>
+            </div>
+          </article>
+
+          <!-- Course 4 -->
+          <article class="course-mobile-card">
+            <div class="course-mobile-header">
+              <span class="course-code-pill">PHY 102</span>
+              <span class="unit-badge">2 Credit Units</span>
+            </div>
+            <h3 class="course-mobile-title">General Physics II</h3>
+            <div class="course-progress-track" aria-hidden="true">
+              <div class="course-progress-fill" style="width: 91%;"></div>
+            </div>
+            <div class="course-mobile-footer">
+              <span class="status-chip status-inprogress"><span class="chip-pip"></span>In Progress &bull; 91%</span>
+              <span class="semester-cell">Semester 2</span>
+            </div>
+          </article>
+
+          <!-- Course 5 -->
+          <article class="course-mobile-card">
+            <div class="course-mobile-header">
+              <span class="course-code-pill">PHY 108</span>
+              <span class="unit-badge">1 Credit Unit</span>
+            </div>
+            <h3 class="course-mobile-title">General Physics Practical II</h3>
+            <div class="course-progress-track" aria-hidden="true">
+              <div class="course-progress-fill" style="width: 90%;"></div>
+            </div>
+            <div class="course-mobile-footer">
+              <span class="status-chip status-inprogress"><span class="chip-pip"></span>In Progress &bull; 90%</span>
+              <span class="semester-cell">Semester 2</span>
+            </div>
+          </article>
+
+          <!-- Course 6 -->
+          <article class="course-mobile-card">
+            <div class="course-mobile-header">
+              <span class="course-code-pill">GST 112</span>
+              <span class="unit-badge">2 Credit Units</span>
+            </div>
+            <h3 class="course-mobile-title">Nigerian Peoples and Culture</h3>
+            <div class="course-progress-track" aria-hidden="true">
+              <div class="course-progress-fill" style="width: 94%;"></div>
+            </div>
+            <div class="course-mobile-footer">
+              <span class="status-chip status-inprogress"><span class="chip-pip"></span>In Progress &bull; 94%</span>
+              <span class="semester-cell">Semester 2</span>
+            </div>
+          </article>
+
+          <!-- Course 7 -->
+          <article class="course-mobile-card">
+            <div class="course-mobile-header">
+              <span class="course-code-pill">GST 122</span>
+              <span class="unit-badge">2 Credit Units</span>
+            </div>
+            <h3 class="course-mobile-title">Communication Skills in English II</h3>
+            <div class="course-progress-track" aria-hidden="true">
+              <div class="course-progress-fill" style="width: 91%;"></div>
+            </div>
+            <div class="course-mobile-footer">
+              <span class="status-chip status-inprogress"><span class="chip-pip"></span>In Progress &bull; 91%</span>
+              <span class="semester-cell">Semester 2</span>
+            </div>
+          </article>
+
+          <!-- Course 8 -->
+          <article class="course-mobile-card">
+            <div class="course-mobile-header">
+              <span class="course-code-pill">COS 111</span>
+              <span class="unit-badge">2 Credit Units</span>
+            </div>
+            <h3 class="course-mobile-title">Technical Certification in Computing I</h3>
+            <div class="course-progress-track" aria-hidden="true">
+              <div class="course-progress-fill" style="width: 66%;"></div>
+            </div>
+            <div class="course-mobile-footer">
+              <span class="status-chip status-inprogress"><span class="chip-pip"></span>In Progress &bull; 66%</span>
+              <span class="semester-cell">Semester 2</span>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: TECHNICAL SKILLS -->
+    <section aria-labelledby="skills-heading" style="margin-bottom: 48px;">
+      <div class="hero-intro-lead" style="font-size: 0.78rem;">P R A C T I C E</div>
+      <h2 id="skills-heading" style="font-size: 1.45rem; font-weight: 800; margin-top: 4px; margin-bottom: 8px;">What I Work With</h2>
+      <p style="color: var(--text-secondary); font-size: 0.92rem;">
+        Core programming languages, technologies, and operating system foundations practiced in 100 Level coursework.
+      </p>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-header">
+            <span>Python (Problem Solving & Logic)</span>
+            <span style="font-family: var(--font-mono);">85%</span>
+          </div>
+          <div class="skill-track">
+            <div class="skill-fill" style="width: 85%;"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-header">
+            <span>HTML5 & Semantic Architecture</span>
+            <span style="font-family: var(--font-mono);">90%</span>
+          </div>
+          <div class="skill-track">
+            <div class="skill-fill" style="width: 90%;"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-header">
+            <span>CSS3, Grid & Liquid UI Design</span>
+            <span style="font-family: var(--font-mono);">88%</span>
+          </div>
+          <div class="skill-track">
+            <div class="skill-fill" style="width: 88%;"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-header">
+            <span>JavaScript (ES6+ & DOM Engines)</span>
+            <span style="font-family: var(--font-mono);">80%</span>
+          </div>
+          <div class="skill-track">
+            <div class="skill-fill" style="width: 80%;"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-header">
+            <span>Linux Command Line & Networking</span>
+            <span style="font-family: var(--font-mono);">78%</span>
+          </div>
+          <div class="skill-track">
+            <div class="skill-fill" style="width: 78%;"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-header">
+            <span>Git Version Control & Deployment</span>
+            <span style="font-family: var(--font-mono);">75%</span>
+          </div>
+          <div class="skill-track">
+            <div class="skill-fill" style="width: 75%;"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- SECTION: HOBBIES & INTERESTS -->
+    <section aria-labelledby="hobbies-heading" style="margin-bottom: 48px;">
+      <article class="mono-card">
+        <h2 id="hobbies-heading" style="font-size: 1.25rem; font-weight: 700; margin-bottom: 14px;">Hobbies & Personal Interests</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px;">
+          <div>
+            <strong style="color: var(--text-main); font-size: 0.95rem;">Capture the Flag (CTF)</strong>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); margin-top: 4px;">
+              Solving entry-level cryptography and web exploitation challenges on OverTheWire and TryHackMe.
+            </p>
+          </div>
+          <div>
+            <strong style="color: var(--text-main); font-size: 0.95rem;">Speed Chess & Strategy</strong>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); margin-top: 4px;">
+              Practicing pattern recognition, positional sacrifices, and endgame tactics to hone computational thinking.
+            </p>
+          </div>
+          <div>
+            <strong style="color: var(--text-main); font-size: 0.95rem;">Tech & Security Podcasts</strong>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); margin-top: 4px;">
+              Listening to Darknet Diaries and Smashing Security to stay informed on real-world malware incidents.
+            </p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" style="margin-top: 64px;">
+    <div class="container">
+      <div class="footer-row">
+        <span class="footer-meta">Adebayo Elisha &bull; Matric: 2025/C/CYB/1089 &bull; MIVA Open University</span>
+        <span class="footer-meta">COS 106 About Me</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING QUICK THEME SWITCHER -->
+  <button type="button" class="floating-theme-switch" aria-label="Toggle theme mode" title="Toggle Light/Dark Theme">
+    <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" style="display:none;"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+    <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+    <span class="theme-label">Light</span>
+  </button>
+
+  <script src="js/effects.js?v=6.1"></script>
+</body>
+</html>

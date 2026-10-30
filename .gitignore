@@ -1,0 +1,16 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor & AI internal state
+.vscode/
+.idea/
+.gemini/
+*.log
+
+# Temporary test/scratch files
+scratch/
+*.patch
+*.zip
+__pycache__/
