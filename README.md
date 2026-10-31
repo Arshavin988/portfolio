@@ -122,6 +122,8 @@ Per the course submission instructions (*"It should be hosted and the link submi
    git push -u origin main
    ```
 
-### Step 2: Deploy to Vercel or GitHub Pages
-- **GitHub Pages**: In the GitHub repository, navigate to **Settings** &rarr; **Pages** &rarr; select `main` branch root &rarr; Click **Save**. The live URL will be: `https://Arshavin988.github.io/portfolio/`.
-- **Vercel**: Import the GitHub repository on [Vercel](https://vercel.com) and click **Deploy**. Vercel will instantly provide a global HTTPS URL (e.g., `https://adebayo-elisha-portfolio.vercel.app`).
+### Step 2: Live Verified Deployments
+- **Primary Live Deployment (Universal Access / Nigerian ISPs)**: [https://elisha-adebayo-portfolio.vercel.app](https://elisha-adebayo-portfolio.vercel.app)
+- **Mirror Live Deployment (GitHub Pages)**: [https://arshavin988.github.io/portfolio/](https://arshavin988.github.io/portfolio/)
+- **Public GitHub Repository**: [https://github.com/Arshavin988/portfolio](https://github.com/Arshavin988/portfolio)
+
