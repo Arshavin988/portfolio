@@ -1,5 +1,5 @@
 // COS 106 - Web Technologies: Contact Form Client-Side Validation
-// Student: Adebayo Elisha
+// Student: Elisha Adebayo
 
 document.addEventListener('DOMContentLoaded', () => {
   initContactForm();

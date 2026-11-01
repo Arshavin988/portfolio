@@ -1,5 +1,5 @@
 // COS 106 - Web Technologies: Academic Planner Task Manager
-// Student: Adebayo Elisha (Cybersecurity, 100 Level - Second Semester)
+// Student: Elisha Adebayo (Cybersecurity, 100 Level - Second Semester)
 // Symmetrical Studio Layout & Miva Second Semester Course Integration
 
 document.addEventListener('DOMContentLoaded', () => {

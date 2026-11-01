@@ -624,7 +624,7 @@ function initAudioPlayer() {
         audio.src = URL.createObjectURL(blob);
         isCached = true;
         if (statusText && !isPlaying) {
-          statusText.innerHTML = 'p(doom) Ready &bull; Offline Cached';
+          statusText.innerHTML = 'Audio Ready &bull; Offline Cached';
         }
       }
     } catch (err) {
@@ -647,7 +647,7 @@ function initAudioPlayer() {
         const blob = await res.blob();
         if (audio.paused && !isPlaying) {
           audio.src = URL.createObjectURL(blob);
-          if (statusText) statusText.innerHTML = 'p(doom) Ready &bull; Cached (0 KB net)';
+          if (statusText) statusText.innerHTML = 'Audio Ready &bull; Cached (0 KB net)';
         }
       }
     } catch (e) {
@@ -662,7 +662,7 @@ function initAudioPlayer() {
     if (playIcon) playIcon.style.display = 'none';
     if (pauseIcon) pauseIcon.style.display = 'block';
     if (statusText) {
-      statusText.textContent = isCached ? 'Playing p(doom) • Local Cache' : 'Playing p(doom) • Streaming...';
+      statusText.textContent = isCached ? 'Playing Audio • Local Cache' : 'Playing Audio • Streaming...';
     }
     bars.forEach(b => b.classList.add('animating'));
   }
@@ -672,7 +672,7 @@ function initAudioPlayer() {
     if (playIcon) playIcon.style.display = 'block';
     if (pauseIcon) pauseIcon.style.display = 'none';
     if (statusText) {
-      statusText.innerHTML = isCached ? 'p(doom) Ready &bull; Instant Play' : 'p(doom) Ready &bull; Tap to Play';
+      statusText.innerHTML = isCached ? 'Audio Ready &bull; Instant Play' : 'Audio Ready &bull; Tap to Play';
     }
     bars.forEach(b => b.classList.remove('animating'));
   }
@@ -886,7 +886,7 @@ function initProjectCodeModal() {
       subtitle: "CYB 101 • Python 3 Defensive Telemetry Simulation",
       abstract: "A defensive cybersecurity simulation engine modeling SOC intrusion detection, automated malicious IP filtering, and structured incident logging for enterprise networks.",
       code: `# Network Intrusion Detection & Telemetry Simulation
-# Adebayo Elisha (Matric: 2025/C/CYB/1089)
+# Elisha Adebayo (Matric: 2025/C/CYB/1089)
 
 import datetime
 
@@ -932,7 +932,7 @@ for ip, port, size in packets:
  * ============================================================================
  * COURSE: COS 102 - Problem Solving (May Cohort 2026)
  * INSTITUTION: MIVA Open University
- * STUDENT: Adebayo Elisha
+ * STUDENT: Elisha Adebayo
  * MATRICULATION NO: 2025/C/CYB/1089
  * DEPARTMENT: Cybersecurity
  * 
@@ -996,7 +996,7 @@ int main(void) {
  * ============================================================================
  * COURSE: COS 102 - Problem Solving (May Cohort 2026)
  * INSTITUTION: MIVA Open University
- * STUDENT: Adebayo Elisha
+ * STUDENT: Elisha Adebayo
  * MATRICULATION NO: 2025/C/CYB/1089
  * DEPARTMENT: Cybersecurity
  * 
@@ -1064,7 +1064,7 @@ int main(void) {
       abstract: "A public health data modeling system tracking confirmed cases across Sub-Saharan African nations with dynamic key pruning, dictionary insertions, and cohort size tracking.",
       code: `# COS 102: Computer Programming Lab - Exercise 1.5.2
 # Sub-Saharan Africa COVID-19 Telemetry & Dictionary Manipulation
-# Student: Adebayo Elisha
+# Student: Elisha Adebayo
 
 # Task 1: Initialize confirmed COVID-19 case counts across African nations
 COVID_19 = {
@@ -1099,7 +1099,7 @@ print(f"Active nations count: {len(COVID_19)}")`
       abstract: "A dual-module scientific workspace calculating simple interest loan amortizations (PRT formula) alongside high-precision thermodynamic scale conversions from Celsius to Fahrenheit.",
       code: `# COS 102: Computer Programming Lab - Exercise 1.4.1
 # Computational Finance & Thermodynamic Conversions
-# Student: Adebayo Elisha
+# Student: Elisha Adebayo
 
 # Module 1: Simple Interest Loan Amortization Function
 def interest(principal, rate, years):
@@ -1132,7 +1132,7 @@ for tc in test_temps:
       abstract: "An automated gradebook analytics processor calculating statistical distributions and sorting student examination marks into descending rank order.",
       code: `# COS 102: Computer Programming Lab - Exercise 1.5.1
 # Academic Examination Cohort Analytics & Score Ranking
-# Student: Adebayo Elisha
+# Student: Elisha Adebayo
 
 # 13 student examination scores taken from cohort assessment:
 marks = [10, 15, 10, 9, 18, 16, 14, 12, 16, 13, 15, 20, 17]

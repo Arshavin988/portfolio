@@ -2,7 +2,7 @@
 
 **Project Title:** Responsive Student Portfolio and Academic Management Website  
 **Institution:** Miva Open University  
-**Student Name:** Adebayo Elisha  
+**Student Name:** Elisha Adebayo  
 **Matriculation Number:** `2025/C/CYB/1089`  
 **Department:** Cybersecurity (Faculty of Computing & Applied Sciences)  
 **Academic Level / Cohort:** 100 Level / May Cohort 2026  
